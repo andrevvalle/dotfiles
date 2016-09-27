@@ -87,6 +87,7 @@ alias o_cask="open /opt/homebrew-cask/Caskroom"
 alias caskroom="/opt/homebrew-cask/Caskroom"
 
 alias pyserver="python -m SimpleHTTPServer"
+alias idrive="cd ${HOME}/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
