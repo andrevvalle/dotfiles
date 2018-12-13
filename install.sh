@@ -28,7 +28,6 @@ sh $HOME/.dotfiles/brew/global.sh
 sh $HOME/.dotfiles/node/global.sh
 sh $HOME/.dotfiles/git/global.sh
 sh $HOME/.dotfiles/ruby/global.sh
-sh $HOME/.dotfiles/sublime/global.sh
 sh $HOME/.dotfiles/zsh/global.sh
 sh $HOME/.dotfiles/softwares/install.sh
 
