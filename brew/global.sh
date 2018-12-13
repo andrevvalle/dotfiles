@@ -9,24 +9,6 @@ else
     ok "OK"
 fi
 
-# watchman
-if which watchman &> /dev/null; then
-    msg_checking "watchman"
-else
-    msg_install "watchman" "brew install watchman"
-    brew install watchman
-    msg_ok "OK"
-fi
-
-# flow
-if which flow &> /dev/null; then
-    msg_checking "flow"
-else
-    msg_install "flow" "brew install flow"
-    brew install flow
-    msg_ok "OK"
-fi
-
 # mongo
 if which mongod &> /dev/null; then
     msg_checking "mongodb"
